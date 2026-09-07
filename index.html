@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Painel Diário de Artigos Científicos — Darci de Borba</title>
+<style>
+  :root{
+    --bg:#0f1626; --panel:#161f33; --panel2:#1c2740; --border:#2a3654;
+    --text:#e8ecf5; --muted:#96a2bf; --accent:#5b8def; --accent2:#7ad0c6;
+    --tag1:#5b8def; --tag2:#e29b3f; --tag3:#7ad0c6; --tag4:#c778dd;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:linear-gradient(180deg,#0b1120,#0f1626 400px); color:var(--text); line-height:1.55;
+  }
+  header{padding:36px 24px 20px; max-width:1100px; margin:0 auto;}
+  header h1{margin:0 0 6px; font-size:1.7rem; font-weight:700; letter-spacing:-0.01em;}
+  header .sub{color:var(--muted); font-size:0.95rem;}
+  .meta-row{display:flex; gap:14px; flex-wrap:wrap; margin-top:14px;}
+  .meta-chip{
+    background:var(--panel2); border:1px solid var(--border); border-radius:999px;
+    padding:6px 14px; font-size:0.82rem; color:var(--muted);
+  }
+  main{max-width:1100px; margin:0 auto; padding:0 24px 60px;}
+  section.theme{margin-top:34px;}
+  .theme-header{display:flex; align-items:baseline; gap:10px; margin-bottom:14px; border-bottom:1px solid var(--border); padding-bottom:8px;}
+  .theme-header h2{font-size:1.15rem; margin:0; font-weight:650;}
+  .theme-header .count{color:var(--muted); font-size:0.85rem;}
+  .grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); gap:16px;}
+  a.card{
+    display:flex; flex-direction:column; gap:10px; background:var(--panel);
+    border:1px solid var(--border); border-radius:12px; padding:18px 18px 16px;
+    text-decoration:none; color:var(--text); transition:transform .15s ease, border-color .15s ease, background .15s ease;
+  }
+  a.card:hover{ transform:translateY(-2px); border-color:var(--accent); background:var(--panel2); }
+  .card-title{font-size:1rem; font-weight:650; line-height:1.35; color:var(--text);}
+  .card-meta{font-size:0.78rem; color:var(--muted);}
+  .card-summary{font-size:0.86rem; color:#c4cbdf;}
+  .card-footer{display:flex; justify-content:space-between; align-items:center; margin-top:auto; padding-top:6px;}
+  .tag{
+    font-size:0.72rem; font-weight:600; padding:3px 9px; border-radius:6px; letter-spacing:.02em;
+  }
+  .tag.novo{background:rgba(122,208,198,0.15); color:var(--tag3); border:1px solid rgba(122,208,198,0.35);}
+  .tag.citado{background:rgba(91,141,239,0.15); color:var(--tag1); border:1px solid rgba(91,141,239,0.35);}
+  .read-more{font-size:0.78rem; color:var(--accent); font-weight:600;}
+  footer{max-width:1100px; margin:0 auto; padding:0 24px 50px; color:var(--muted); font-size:0.8rem; border-top:1px solid var(--border); padding-top:18px;}
+  footer a{color:var(--accent2);}
+</style>
+</head>
+<body>
+<header>
+  <h1>Painel Diário de Artigos Científicos</h1>
+  <div class="sub">Destaques em transformação digital, governo digital, governança de IA, administração pública e comportamento organizacional — selecionados para a atuação de Darci de Borba (pesquisa, docência, gestão pública e consultoria).</div>
+  <div class="meta-row">
+    <span class="meta-chip">Atualizado em 13/08/2026</span>
+    <span class="meta-chip">17 artigos</span>
+    <span class="meta-chip">Fonte: Consensus (Semantic Scholar, Scopus, PubMed, ArXiv)</span>
+  </div>
+</header>
+
+<main>
+
+<section class="theme">
+  <div class="theme-header"><h2>Transformação Digital &amp; Governo Digital</h2><span class="count">5 artigos</span></div>
+  <div class="grid">
+
+    <a class="card" href="https://consensus.app/papers/details/c22c4a0fec49594e847f8a741fd9db74/?utm_source=claude_desktop" target="_blank" rel="noopener">
+      <div class="card-title">Digital Transformation in Public Administration: Towards Data-Driven Government</div>
+      <div class="card-meta">Suryadi, D. et al. · 2026 · Journal of Creative Power and Ambition (JCPA)</div>
+      <div class="card-summary">Revisão de literatura sobre o papel estratégico da transformação digital na construção de governos orientados a dados, com foco em desafios de qualidade de dados, ética em IA e desigualdade digital.</div>
+      <div class="card-footer"><span class="tag novo">Revisão</span><span class="read-more">Ler artigo completo →</span></div>
+    </a>
+
+    <a class="card" href="https://consensus.app/papers/details/ac5d181f594b5a71a7534ef3badd3006/?utm_source=claude_desktop" target="_blank" rel="noopener">
+      <div class="card-title">Digital Transformation in Governance: The Impact of e-governance on Public Administration and Transparency</div>
+      <div class="card-meta">Sharmin, S. et al. · 2025 · Journal of Computer Science and Technology Studies · 52 citações</div>
+      <div class="card-summary">Estudo de métodos mistos com casos comparativos (Estônia, Índia, Coreia do Sul) sobre como e-governança melhora eficiência administrativa e transparência via blockchain e dados abertos.</div>
+      <div class="card-footer"><span class="tag citado">Alta citação</span><span class="read-more">Ler artigo completo →</span></div>
+    </a>
+
+    <a class="card" href="https://consensus.app/papers/details/d8d622d53e3f533e8e2b600aa453b57a/?utm_source=claude_desktop" target="_blank" rel="noopener">
+      <div class="card-title">Advancing public administration research: integrating digital governance, institutional resilience, and participatory pathways for public value</div>
+      <div class="card-meta">Rodríguez Bolívar, M. P. · 2026 · International Review of Administrative Sciences</div>
+      <div class="card-summary">Editorial que sintetiza a produção de alto impacto em administração pública (2020-2025) e propõe agenda de pesquisa em governança digital, resiliência institucional e valor público.</div>
+      <div class="card-footer"><span class="tag novo">Agenda de pesquisa</span><span class="read-more">Ler artigo completo →</span></div>
+    </a>
+
+    <a class="card" href="https://consensus.app/papers/details/39d712c92e9d5ea6b181c83f4f8fe5c7/?utm_source=claude_desktop" target="_blank" rel="noopener">
+      <div class="card-title">Digital Transformation and Governance Innovation in Public Administration: Challenges, Enablers, and a Strategic Implementation Framework</div>
+      <div class="card-meta">A. T. D. · 2026 · International Journal of Administration and Management Research Studies</div>
+      <div class="card-summary">Revisão sistemática de 118 estudos combinada com análise qualitativa de 16 iniciativas digitais governamentais. Propõe o framework PS-DTF ancorado em teoria institucional e de capacidades dinâmicas.</div>
+      <div class="card-footer"><span class="tag novo">Framework</span><span class="read-more">Ler artigo completo →</span></div>
+    </a>
+
+    <a class="card" href="https://consensus.app/papers/details/4e5cb70b51ed5cb59c920114a6a84abe/?utm_source=claude_desktop" target="_blank" rel="noopener">
+      <div class="card-title">Public Administration Reform and Digital Government Transformation in Vietnam</div>
+      <div class="card-meta">Dang Thi Viet Phuong · 2026 · Information Polity</div>
+      <div class="card-summary">Traça a coevolução da reforma administrativa e do governo digital vietnamita, evidenciando a importância da coordenação centralizada e da coerência institucional em reformas de longo prazo.</div>
+      <div class="card-footer"><span class="tag novo">Estudo de caso nacional</span><span class="read-more">Ler artigo completo →</span></div>
+    </a>
+
+  </div>
+</section>
+
+<section class="theme">
+  <div class="theme-header"><h2>Governança de Inteligência Artificial no Setor Público</h2><span class="count">5 artigos</span></div>
+  <div class="grid">
+
+    <a class="card" href="https://consensus.app/papers/details/9193d2578d625ca6af46e5b9a5d99433/?utm_source=claude_desktop" target="_blank" rel="noopener">
+      <div class="card-title">Artificial intelligence governance: Understanding how public organizations implement it</div>
+      <div class="card-meta">Gomes Rêgo de Almeida, P. et al. · 2025 · Government Information Quarterly · 35 citações</div>
+      <div class="card-summary">Investigação em 28 organizações públicas de cinco continentes (QCA) que resulta no framework AIGov4Gov, mostrando o papel do treinamento de gestores na maturidade da governança de IA.</div>
+      <div class="card-footer"><span class="tag citado">Alta citação</span><span class="read-more">Ler artigo completo →</span></div>
+    </a>
+
+    <a class="card" href="https://consensus.app/papers/details/b0dfc3ffe01d5237bfd91de74d23946d/?utm_source=claude_desktop" target="_blank" rel="noopener">
+      <div class="card-title">Understanding the Adoption of Artificial Intelligence in Local Government Decision-Making: The Influence of Institutional Pressures and Managerial Perceptions</div>
+      <div class="card-meta">Rodriguez Müller, A. P. et al. · 2025 · Public Administration · 17 citações</div>
+      <div class="card-summary">Survey experimental com 497 gestores públicos belgas mostra como pressões coercitivas, normativas e miméticas (teoria institucional) influenciam a disposição para adotar IA em decisões municipais.</div>
+      <div class="card-footer"><span class="tag citado">Periódico de referência</span><span class="read-more">Ler artigo completo →</span></div>
+    </a>
+
+    <a class="card" href="https://consensus.app/papers/details/7fdeca5f4f5a54268219b198f02e0029/?utm_source=claude_desktop" target="_blank" rel="noopener">
+      <div class="card-title">AI governance: a systematic literature review</div>
+      <div class="card-meta">Batool, A. et al. · 2025 · AI and Ethics · 225 citações</div>
+      <div class="card-summary">Revisão sistemática que organiza a governança de IA em cinco níveis (equipe, organização, indústria, nacional, internacional), respondendo quem, o quê, quando e como governar sistemas de IA.</div>
+      <div class="card-footer"><span class="tag citado">Muito citado</span><span class="read-more">Ler artigo completo →</span></div>
+    </a>
+
+    <a class="card" href="https://consensus.app/papers/details/7e5a605ae3e45ea0b2afa711ceea3678/?utm_source=claude_desktop" target="_blank" rel="noopener">
+      <div class="card-title">Integrating AI in Public Governance: A Systematic Review</div>
+      <div class="card-meta">Aarab, A. et al. · 2025 · Digit. · 15 citações</div>
+      <div class="card-summary">Revisão PRISMA (67 estudos) propõe o AI Integration Capability Model, combinando Technology Acceptance Model, Digital-Era Governance e teoria de Capacidades Dinâmicas, validado por Delphi com especialistas marroquinos.</div>
+      <div class="card-footer"><span class="tag novo">Capacidades dinâmicas</span><span class="read-more">Ler artigo completo →</span></div>
+    </a>
+
+    <a class="card" href="https://consensus.app/papers/details/ae932d9c1edb5fb685d9a13b641ccd9d/?utm_source=claude_desktop" target="_blank" rel="noopener">
+      <div class="card-title">Adapting regulatory sandboxes as experimentalist governance frameworks for public sector artificial intelligence experimentation</div>
+      <div class="card-meta">Okonjo, J. · 2026 · Global Public Policy and Governance</div>
+      <div class="card-summary">Argumenta que sandboxes regulatórios tradicionais, pensados para inovação privada, exigem adaptação normativa e institucional substancial para experimentação legítima de IA no setor público.</div>
+      <div class="card-footer"><span class="tag novo">Política regulatória</span><span class="read-more">Ler artigo completo →</span></div>
+    </a>
+
+  </div>
+</section>
+
+<section class="theme">
+  <div class="theme-header"><h2>IA Generativa &amp; Produtividade no Setor Público</h2><span class="count">3 artigos</span></div>
+  <div class="grid">
+
+    <a class="card" href="https://consensus.app/papers/details/345a6cf089db5a1c84c3ab12dc110847/?utm_source=claude_desktop" target="_blank" rel="noopener">
+      <div class="card-title">Generative AI in public administration: A quasi-experimental analysis of bureaucratic productivity</div>
+      <div class="card-meta">Kim, E. · 2026 · Government Information Quarterly · 2 citações</div>
+      <div class="card-summary">Desenho quase-experimental (diferenças-em-diferenças + pareamento por escore de propensão) com 80 servidores mostra redução média de ~4 minutos no tempo de elaboração de respostas ao cidadão com IA generativa, com maior ganho para novos servidores.</div>
+      <div class="card-footer"><span class="tag novo">Evidência causal</span><span class="read-more">Ler artigo completo →</span></div>
+    </a>
+
+    <a class="card" href="https://consensus.app/papers/details/267edee06e6651fd843625643d934fae/?utm_source=claude_desktop" target="_blank" rel="noopener">
+      <div class="card-title">The Main Barrier to AI Adoption in the Public Sector Is Lack of Training: How a Structured Method Accompanied Productivity Gains in Two Brazilian Government Cases</div>
+      <div class="card-meta">Santana Gomes, V. · 2026 · periódico não identificado</div>
+      <div class="card-summary">Dois casos auditáveis do Distrito Federal (saúde e desenvolvimento econômico) mostram redução de 18,2% e 50% no tempo de processamento após metodologia pedagógica estruturada de capacitação em IA generativa gratuita, sem custo adicional ao órgão.</div>
+      <div class="card-footer"><span class="tag novo">Caso brasileiro</span><span class="read-more">Ler artigo completo →</span></div>
+    </a>
+
+    <a class="card" href="https://consensus.app/papers/details/f633aa2184f05408982f1f0d450c3cb5/?utm_source=claude_desktop" target="_blank" rel="noopener">
+      <div class="card-title">Productivity Enhancement Using Generative AI in the Public Sector</div>
+      <div class="card-meta">Yeoh, J. J. et al. · 2025 · 2025 3rd International Conference on Cyber Resilience (ICCR)</div>
+      <div class="card-summary">Analisa a adoção de ferramentas de IA generativa (texto, imagem, apresentação, vídeo) no serviço público da Malásia e a defasagem das políticas de capacitação frente ao ritmo tecnológico.</div>
+      <div class="card-footer"><span class="tag novo">Estudo de caso</span><span class="read-more">Ler artigo completo →</span></div>
+    </a>
+
+  </div>
+</section>
+
+<section class="theme">
+  <div class="theme-header"><h2>Comportamento Organizacional &amp; Inteligência Artificial</h2><span class="count">4 artigos</span></div>
+  <div class="grid">
+
+    <a class="card" href="https://consensus.app/papers/details/2bcfc736167c5ecb80678af38f86b777/?utm_source=claude_desktop" target="_blank" rel="noopener">
+      <div class="card-title">The Acceleration of Artificial Intelligence: Rethinking Organization and Work in an Era of Rapid Technological Change</div>
+      <div class="card-meta">Chalmers, D. et al. · 2026 · Journal of Management Studies · 19 citações</div>
+      <div class="card-summary">Artigo teórico de peso propõe framework heurístico que diferencia sistemas preditivos, generativos, agênticos e corporificados de IA, e sua reconfiguração de expertise, julgamento, coordenação e autoridade nas organizações.</div>
+      <div class="card-footer"><span class="tag citado">Periódico de referência</span><span class="read-more">Ler artigo completo →</span></div>
+    </a>
+
+    <a class="card" href="https://consensus.app/papers/details/fdd9556b3f2a551da532842cf49eb4fe/?utm_source=claude_desktop" target="_blank" rel="noopener">
+      <div class="card-title">The Role of Artificial Intelligence in Improving Organizational Behavior: A Systematic Study</div>
+      <div class="card-meta">Rostamzadeh, R. et al. · 2025 · Human Behavior and Emerging Technologies</div>
+      <div class="card-summary">Meta-síntese qualitativa (18 artigos, 1995-2024) identifica cinco dimensões do impacto da IA no comportamento organizacional: automação, inovação, decisão inteligente, cultura organizacional e ética/liderança.</div>
+      <div class="card-footer"><span class="tag novo">Meta-síntese</span><span class="read-more">Ler artigo completo →</span></div>
+    </a>
+
+    <a class="card" href="https://consensus.app/papers/details/c8e7e92698ce59ce88c4b04306866ce8/?utm_source=claude_desktop" target="_blank" rel="noopener">
+      <div class="card-title">The Transformative Impact of Artificial Intelligence (AI) on Organisational Behaviour (OB): A Study of Employee Engagement, Performance, and Ethical Implications</div>
+      <div class="card-meta">Ateeq, K. et al. · 2025 · Journal of Posthumanism · 24 citações</div>
+      <div class="card-summary">Discute como IA reconfigura engajamento, desempenho e liderança, alertando para riscos de erosão da confiança e do contrato psicológico com uso excessivo, e defende governança ética da IA no trabalho.</div>
+      <div class="card-footer"><span class="tag citado">Alta citação</span><span class="read-more">Ler artigo completo →</span></div>
+    </a>
+
+    <a class="card" href="https://consensus.app/papers/details/c6b6da3975ac590db508a2fb0155e8f2/?utm_source=claude_desktop" target="_blank" rel="noopener">
+      <div class="card-title">How does organizational AI adoption affect employees' job crafting behaviors? An approach-avoidance perspective</div>
+      <div class="card-meta">Liu, Q. et al. · 2026 · Frontiers in Psychology · 31 citações</div>
+      <div class="card-summary">Estudo longitudinal (3 ondas, 650 empregados chineses) mostra que autonomia apoiada por IA promove job crafting de aproximação, enquanto ansiedade em relação à IA promove job crafting de evitação.</div>
+      <div class="card-footer"><span class="tag citado">Longitudinal</span><span class="read-more">Ler artigo completo →</span></div>
+    </a>
+
+  </div>
+</section>
+
+</main>
+
+<footer>
+  Painel gerado a partir de buscas na base Consensus (agregando Semantic Scholar, Scopus, PubMed e ArXiv) em 13/08/2026. Clique em qualquer artigo para acessar a fonte original. Seleção orientada às áreas de atuação de Darci de Borba: transformação digital, governo digital, administração pública, governança, capacidades dinâmicas, inteligência artificial e comportamento organizacional.
+</footer>
+
+</body>
+</html>
