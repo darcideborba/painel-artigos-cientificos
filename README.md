@@ -4,6 +4,11 @@ Painel diário em HTML autocontido que reúne artigos científicos recentes sobr
 
 Gerado com o apoio do Claude (Anthropic), a partir de buscas em bases acadêmicas (Consensus, Scite), com curadoria e organização de [Darci de Borba](https://www.darcideborba.com.br).
 
+## Código-fonte e prompt
+
+- `gerar_painel.py` — script Python que reproduz a busca (API pública do Semantic Scholar) e a montagem do HTML.
+- `PROMPT.md` — instrução de IA usada para curadoria e geração do painel.
+
 ## Visualizar
 
 Abra o arquivo `index.html` neste repositório, ou acesse a versão publicada via GitHub Pages (quando habilitado nas configurações do repositório) em:
