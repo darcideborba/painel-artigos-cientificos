@@ -1,0 +1,22 @@
+{
+  "title": "Painel de Artigos Científicos",
+  "description": "Painel diário em HTML autocontido que reúne artigos científicos recentes sobre transformação digital, governo digital, administração pública, governança, inteligência artificial e ciência de dados, com foco em aplicações à gestão pública. Inclui o script Python de geração e o prompt de curadoria.",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "language": "por",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Santos Júnior, Darci de Borba",
+      "affiliation": "Instituto de Pesquisa Econômica Aplicada (Ipea)",
+      "orcid": "0000-0001-9851-5034"
+    }
+  ],
+  "keywords": [
+    "administração pública",
+    "governo digital",
+    "pesquisa acadêmica",
+    "transformação digital"
+  ],
+  "license": "mit"
+}
